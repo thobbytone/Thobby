@@ -1,0 +1,145 @@
+*{
+
+	box-sizing: border-box;}
+
+h1{
+
+	margin-bottom: 15px;
+
+	text-align: center;
+
+	font-family: arial;
+
+}
+
+p{
+
+	
+
+	padding: 10px;
+
+	background-color: #556574;
+
+	width: 97%;
+
+	height: 150PX;
+
+	margin-right: 10px;
+
+	margin-left: 10px;
+
+	font-family: verdana; 
+
+	font-weight: bold;
+
+	color: black;
+
+	text-align:center;
+
+}
+
+.row{
+
+	width:100%;
+
+}
+
+.small {
+
+	background:#556574;
+
+	
+
+	text-align: right;
+
+	font-weight: bold;
+
+	color: black;
+
+	text-align:right;
+
+	border: 2px solid black;
+
+	height: 200px;
+
+	margin: 10px;
+
+}
+
+ .small span{
+
+ 	background-color: red;
+
+	 border-bottom: 2px solid black;
+
+ 	border-left: 2px solid black;	
+
+ 	padding: 0px 15px 6px 15px;
+
+ }
+
+/**********Large device**********/
+
+@media (min-width:1200px){
+
+	.col-lg-1, .col-lg-2, .col-lg-3{
+
+		float:left;
+
+		border:1px ;
+
+	}
+
+	.col-lg-1{
+
+		width:11.11%;
+
+	}
+
+	.col-lg-2{
+
+		width:22.22%;
+
+	}
+
+	.col-lg-3{
+
+		width:33.33%;
+
+	}
+
+	
+
+}
+
+/**********Medium device only**********/
+
+@media (min-width:950px) and (max-width:1199px){
+
+	.col-md-1, .col-md-2, .col-md-3{
+
+		float:left;
+
+		;
+
+		border:1px ;
+
+	}
+
+	.col-md-1{
+
+		width:25%;
+
+	}
+
+	.col-md-2{
+
+		width:50%;
+
+	}
+
+	.col-md-3{
+
+		width:100%;	
+
+	}
